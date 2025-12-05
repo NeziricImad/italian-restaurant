@@ -1,0 +1,102 @@
+body {
+  margin: 0;
+  font-family: serif;
+  background: #0c0d07;
+  color: white;
+}
+
+/* --- HERO SECTION --- */
+.hero {
+  height: 80vh;
+  background: url("https://images.squarespace-cdn.com/content/v1/5b196ee731d4df831f0acadd/1732091034701-SF7M54YBZW5VXX3USI5Q/4L8A7164.jpg?format=1000w") center/cover no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+}
+
+.overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.4);
+  top: 0;
+  left: 0;
+}
+
+.logo {
+  font-size: 4rem;
+  z-index: 1;
+}
+
+.tagline {
+  z-index: 1;
+  font-size: 1.2rem;
+  margin-top: 10px;
+}
+
+/* --- VISIT US --- */
+.visit {
+  display: flex;
+  padding: 60px 10%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.visit-box {
+  background: white;
+  color: black;
+  padding: 30px;
+  width: 40%;
+}
+
+.side-img {
+  width: 45%;
+  border-radius: 8px;
+}
+
+/* --- INFO SECTIONS --- */
+.dress-code, .conduct {
+  text-align: center;
+  padding: 40px 10%;
+  border-top: 1px solid #333;
+}
+
+/* --- MENU --- */
+.menu {
+  text-align: center;
+  padding: 60px 10%;
+}
+
+.menu-flex {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin-top: 30px;
+}
+
+.wine-img {
+  width: 35%;
+  border-radius: 8px;
+}
+
+.menu-list {
+  list-style: none;
+  padding: 0;
+  line-height: 2.2;
+  font-size: 1.1rem;
+}
+
+/* --- FOOTER --- */
+.footer {
+  text-align: center;
+  padding: 40px 0;
+  background: #111;
+  margin-top: 40px;
+}
+
+.footer-logo {
+  font-size: 2rem;
+  margin-bottom: 5px;
+}
